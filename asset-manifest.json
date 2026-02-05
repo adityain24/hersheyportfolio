@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/hersheyportfolio/static/css/main.43a28043.css",
+    "main.js": "/hersheyportfolio/static/js/main.830eb637.js",
+    "static/media/harshi.jpeg": "/hersheyportfolio/static/media/harshi.e9469cd473e5d752ec8e.jpeg",
+    "index.html": "/hersheyportfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.43a28043.css",
+    "static/js/main.830eb637.js"
+  ]
+}
