@@ -1,3 +1,4 @@
+
 section {
     flex: 1 0 auto;
     position: relative;
@@ -20,6 +21,13 @@ section {
     border-radius: 0;
 }
 
+.color-bends-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 .btn-portfolio a {
     color: #000;
     text-decoration: none;
@@ -31,10 +39,10 @@ section {
 }
 
 .intro_sec {
-    height: calc(100vh - 60px);
     min-height: 700px;
     height: 100vh;
     margin-top: -60px;
+   
 }
 
 @media (max-width:991.98px) {
@@ -42,6 +50,12 @@ section {
         display: block;
         height: auto!important;
     }
+    #button_p {
+        margin-top: 150px;
+    }
+     #button_h{
+        margin-top: 150px;
+     }
 }
 
 .intro_sec .text,
@@ -51,14 +65,18 @@ section {
 
 @media (max-width:991.98px) {
     .intro_sec .text,
-    .intro_sec .h_bg-image {
+    .intro_sec .h_bg-image{
         width: 100%;
+        background-size: 90%;
+        margin-top: -90px;
+        
     }
-}
+    }
+
 
 .intro_sec .intro {
     max-width: 450px;
-    margin: 0 auto;
+    margin: -50px auto;
 }
 
 @media (max-width:991.98px) {
@@ -66,8 +84,7 @@ section {
         max-width: 700px;
         padding-left: 20px;
         padding-right: 20px;
-    }
-}
+    }}
 
 .intro_sec .intro .feature .wrap-icon {
     background: 0 0!important;
@@ -91,7 +108,8 @@ section {
     font-weight: 700;
 }
 
-.intro_sec .h_bg-image {
+
+.intro_sec  {
     background-size: cover;
     background-position: center;
     min-height: 700px;
@@ -99,7 +117,7 @@ section {
 }
 
 .ac_btn {
-    padding: 4px 19px;
+    padding: 10px 19px;
     color: var(--secondary-color);
     position: relative;
     border: var(--secondary-color) 2px solid;
@@ -107,6 +125,7 @@ section {
     transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
     cursor: pointer;
     border-radius: 0;
+    margin-top: 70px;
     margin-right: 20px;
 }
 
@@ -140,7 +159,7 @@ section {
     height: 100%;
     position: absolute;
     background: transparent;
-    top: 0;
+    top: 5;
     left: 0;
     transform: translate3d(0px, 90px, 0px);
 }
@@ -174,7 +193,15 @@ section {
     color: var(--primary-color)
 }
 
-.intro_sec .h_bg-image .block {
+.h_bg-image{
+       height: 100vh;          /* instead of 100% */
+  background-size: 50%;
+   background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.intro_sec  .block {
     bottom: 50vh;
     max-width: 220px;
     padding: 30px;
@@ -196,7 +223,7 @@ section {
     .intro_sec .h_bg-image {
         height: 600px;
         min-height: 75vh;
-        margin-bottom: 30px;
+        margin-bottom: -60px;
     }
     .intro_sec .h_bg-image .block {
         top: unset;
@@ -211,7 +238,7 @@ section {
 .intro_sec .h_bg-image .block .wrap-icon {
     font-size: 40px;
     color: var(--text-color);
-    margin-bottom: 10px;
+    margin-bottom: 80px;
     display: block;
 }
 
@@ -229,3 +256,17 @@ section {
     color: var(--text-color)
 }
 
+.fade-in-delayed {
+  opacity: 0;
+  animation: fadeInOnly 0.5s ease forwards;
+  animation-delay: 1.2s;   /* ← adjust delay here */
+}
+
+@keyframes fadeInOnly {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

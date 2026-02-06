@@ -139,9 +139,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "harshitaghawri7@gmail.com",
+    YOUR_FONE: "8920311941",
+    description: "Got a brand idea, redesign, or campaign in mind? I’d love to help shape it through thoughtful strategy and purposeful design",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -151,7 +151,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/hershey-afk",
-    facebook: "https://facebook.com",
+    instagram: "https://instagram.com/_hershey__04",
     linkedin: "https://www.linkedin.com/in/harshitaghawri/",
     twitter: "https://twitter.com",
 };
