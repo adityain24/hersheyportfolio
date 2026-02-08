@@ -43,3 +43,10 @@ button.btn.ac_btn:hover {
         transform: translateX(100%);
     }
 }
+
+.contactInfo {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

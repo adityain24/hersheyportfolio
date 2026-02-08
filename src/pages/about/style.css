@@ -27,6 +27,13 @@
     overflow: visible;
 }
 
+@media (min-width: 1400px)
+{
+    .caption-top{
+    width: max-content;
+}}
+
+
 .progress .progress-bar {
     position: relative;
     background: var(--text-color);

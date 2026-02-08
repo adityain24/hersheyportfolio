@@ -13,65 +13,69 @@ const introdata = {
         second: "I love turning trends into strategy.",
         third: "I love blending creativity with analytics.",
     },
-    description: "Brand Strategist | Social Media Executive | Plum Media | Bachelor of Arts | DU’24 |",
+    description: "Brand Strategist | Social Media Executive | Plum Media | Content Creator | UI/UX Designer",
     your_img_url:  harshi,
 
 };
 
 const dataabout = {
-    title: "about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About myself",
+    aboutme: "I’m a creative professional focused on building brands and designing meaningful digital experiences. With a background in UI/UX and social media, I turn ideas into engaging visuals and content that connect with people. As a Social Media Executive and Content Creator, I work on growing communities and making brands feel more human."
+
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Bajaj Foundation",
+        occupation: "Content  Writer  Intern",
+        where: "New Delhi",
+        date: "December 2023 - February 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "House Of Creasip",
+        occupation: "Social Media Intern",
+        where: "New Delhi",
+        date: "June 2024 - August 2024 ",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Plum Media",
+        occupation: "Social Media Executive",
+        where: "New Delhi",
+        date: "October 2024 - Present",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "Canva",
+        value: 98,
     },
     {
-        name: "Djano",
+        name: "Inshot",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "VN Video Editor",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Adobe Photoshop",
+        value: 70,
     },
     {
-        name: "Jquery",
+        name: "Figma",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Social Media Content Creator",
+        description: "I create platform specific content strategies, visual creatives, reels/short-form videos, carousel posts, and campaign concepts. I focus on trend research, audience targeting, content calendars, brand storytelling, and engagement optimization to build consistent online presence and drive measurable reach and interaction.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Content Writer",
+        description: "I provide SEO-optimized blogs, website copy, brand storytelling, ad copy, social media captions, and campaign narratives. My writing balances creativity with strategy  focused on clarity, tone consistency, audience psychology, and conversion-driven messaging aligned with brand voice.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "UI/UX Designer",
+        description: "I design user-centric digital experiences through research, wireframing, prototyping, and high-fidelity interfaces. My services include user flows, usability testing, design systems, responsive web/app design, and interaction design ensuring intuitive navigation, accessibility, and visually cohesive product experiences.",
     },
 ];
 
@@ -150,7 +154,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/hershey-afk",
+    github: "https://github.com/harshitaghawri",
     instagram: "https://instagram.com/_hershey__04",
     linkedin: "https://www.linkedin.com/in/harshitaghawri/",
     twitter: "https://twitter.com",

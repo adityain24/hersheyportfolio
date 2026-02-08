@@ -5,7 +5,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
-
+<style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
     email: "",
@@ -102,12 +103,12 @@ export const ContactUs = () => {
               <br />
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
-                <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
+                <p className = "contactConfig">
+                  <strong>Phone :</strong> <span className = "contactInfo">{contactConfig.YOUR_FONE}</span>
                 </p>
               ) : (
                 ""
-              )}
+              )} 
             </address>
             <p>{contactConfig.description}</p>
           </Col>
